@@ -6,24 +6,17 @@
 ## File Structure
 
 ```markdown
-  ├── .gitignore                            <- DSC
-  ├── dockerfiles                           <- DSC
-  │   ├── docker-compose-django.prod.yml    <- DSC
-  │   ├── docker-compose-django.yml         <- DSC
-  │   ├── DOCKERFILE-django                 <- DSC
-  │   ├── DOCKERFILE-FLASK                  <- DSC
-  │   ├── DOCKERFILE-generic                <- DSC
-  │   └── DOCKERFILE-Streamlit              <- DSC
-  ├── LICENSE                               <- DSC
-  ├── northwind.sql                         <- DSC
-  ├── Pipfile                               <- DSC
-  ├── PROJECTINFO.md                        <- DSC
-  ├── README.md                             <- DSC
-  ├── requirements.txt                      <- DSC
-  └── src                                   <- DSC
-      ├── loadDB.py                         <- DSC
-      ├── sink.py                           <- DSC
-      └── source.py                         <- DSC
+  ├── .gitignore          <- DSC
+  ├── LICENSE             <- DSC
+  ├── northwind.sql       <- DSC
+  ├── Pipfile             <- DSC
+  ├── PROJECTINFO.md      <- DSC
+  ├── README.md           <- DSC
+  ├── requirements.txt    <- DSC
+  └── src                 <- DSC
+      ├── loadDB.py       <- DSC
+      ├── sink.py         <- DSC
+      └── source.py       <- DSC
 
 ```
 
